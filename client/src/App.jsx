@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../Pages/Home/Home'
-import {register} from "@syncfusion/ej2-documenteditor"
+// import {registerLicense} from "@syncfusion/ej2-base"
+// registerLicense("Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf0x0TXxbf1x0ZFRMYl1bRnVPIiBoS35RckViW35fc3ZURGNcWEd1")
 
 function App() {
   const [count, setCount] = useState(0)
